@@ -16,7 +16,8 @@ import java.util.Iterator;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3001/")
+@CrossOrigin(origins = "https://todofrontenedlist.onrender.com/")
+//	http://localhost:3001/
 public class TodoController {
 
     private final TodoService todoService;
